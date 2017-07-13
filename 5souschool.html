@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+       <script type="text/javascript">
+    	
+      (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  docEl.style.fontSize = 100 * (clientWidth / 639) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="css/guanjia.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+		   <span><a href="4sousuo.html"><img src="img/未标题-1.gif"></a></span>
+			<h1>请选择所在城市</h1>
+		</header>
+		<section>
+            <div class="one">
+            	<form>
+            		<input type="text" class="first" placeholder="请输入所在的学校"/>
+            	    <a href="6souxuexiao.html"><input type="text" class="er" value="搜索"/></a>
+            	</form>
+            </div>
+            <div class="two">
+            	<div class="li">
+            		<p><img src="img/未标题-6.gif"></p>
+            		<h1>很抱歉，未能找到您所在的学校!</h1>
+            	</div>
+            </div>
+		</section>
+	
+	</div>
+		
+</body>
+</html>

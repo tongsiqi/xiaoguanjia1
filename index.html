@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+       <script type="text/javascript">
+    	
+      (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  docEl.style.fontSize = 100 * (clientWidth / 639) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="css/guanjia.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+		   <span>    <img src="img/未标题-1.gif"></span>
+			<h1>请选择所在城市</h1>
+		</header>
+		<section>
+			<div class="box">
+				<div class="one">
+				<!--<input type="text" placeholder="搜索学校"/>-->
+				<input type="search" name="move" list="search" placeholder="搜索学校"/>
+			    <datalist id="search">
+				<option value="八维"></option>
+				<option value="四中"></option>
+				<option value="思琪"></option>
+				<option value="哈哈哈"></option>
+			    </datalist>
+				</div>
+			</div>
+			<div class="box2">
+				<p><span><img src="img/未标题-3.gif"></span>当前定位城市</p>
+				<h1>无法获取当前位置</h1>
+			</div>
+			<div class="box3">
+				<div class="left">
+					<div class="two">
+						<p>E</p>
+					</div>
+					<div class="three">
+						<h1><a href="2zhifu.html" style="color: #4194f0;">鄂尔多斯</a></h1>
+					</div>
+					<div class="three">
+						<h1 style="color: #000;">峨眉山</h1>
+					</div>
+					<div class="three">
+						<h1 style="color: #000;">恩施</h1>
+					</div>
+						<div class="three" style="border: none;">
+						<h1 style="color: #000;">鄂州</h1>
+					</div>
+					<div class="two">
+						<p>F</p>
+					</div>
+					<div class="three">
+						<h1 style="color: #000;">佛山</h1>
+					</div>
+					<div class="three">
+						<h1 style="color: #000;">抚顺</h1>
+					</div>
+						<div class="three">
+						<h1 style="color: #000;">阜阳</h1>
+					</div>
+				</div>
+				<div class="right">
+					<ul>
+						<li>A</li>
+						<li>B</li>
+						<li>C</li>
+						<li>D</li>
+						<li>E</li>
+						<li>F</li>
+						<li>G</li>
+						<li>H</li>
+						
+						<li>J</li>
+						<li>K</li>
+						<li>L</li>
+						<li>M</li>
+						<li>N</li>
+					
+						<li>P</li>
+						<li>Q</li>
+						<li>R</li>
+						<li>S</li>
+						<li>T</li>
+						<li>U</li>
+						<li>V</li>
+						<li>W</li>
+						<li>X</li>
+						<li>Y</li>
+						<li>Z</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	
+	</div>
+		<div class="footer">
+			<p>E</p>
+		</div>
+</body>
+</html>

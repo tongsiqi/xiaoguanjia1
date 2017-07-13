@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+       <script type="text/javascript">
+    	
+      (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  docEl.style.fontSize = 100 * (clientWidth / 639) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="css/xiaoguanjia.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+		   <a href="6souxuexiao.html"><span><img src="img/未标题-1.gif"></span></a>
+		<form>
+			<input type="text" value="北京体育大学圣诞快乐你姐夫听过课领导" onfocus="this.value=''"/>
+		</form>
+	    <dl>
+	    	<dt><img src="img/未标题-8.gif"></dt>
+	    	<dd><a href="8hangzhou.html" style="color: #fff;">我的店铺</a></dd>
+	    </dl>
+	 </header>
+	 
+	<section>
+      <div class="t">
+        <div class="swiper-container">
+			 <div class="swiper-wrapper">
+				<div class="swiper-slide">
+					 <img src="img/woaini.png">
+				</div>
+					<div class="swiper-slide">
+					 <img src="img/woaini.png">
+				</div>
+					<div class="swiper-slide">
+					 <img src="img/woaini.png">
+				</div>
+			 </div>
+			 	<div class="swiper-pagination"></div>
+		</div>
+       </div>
+        <div class="s">
+        	<h1><img src="img/未标题-9.gif"></h1>
+        	<p>您所在的学校还没有一个小管家<br />&nbsp;&nbsp;&nbsp;&nbsp;快去申请成为小管家吧</p>
+        	<form>
+        		<input type="text" value="申请成为小管家"/>
+        	</form>
+        </div>
+	</section>
+	 <footer style="background: white;">
+	 	<dl>
+	 		<dt><img src="img/未标题-10.gif"></dt>
+	 		<dd>首页</dd>
+	 	</dl>
+	 		<dl>
+	 		<dt><img src="img/未标题-10.gif"></dt>
+	 		<dd>订单</dd>
+	 	</dl>
+	 		<dl>
+	 		<dt><img src="img/未标题-10.gif"></dt>
+	 		<dd>我的</dd>
+	 	</dl>
+	 </footer>
+	</div>
+	<script src="css/swiper.min.js"></script>
+	<script>
+			var swiper = new Swiper('.t .swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				autoplay: true,
+				speed: 1000,
+			});
+	</script>
+</body>
+</html>

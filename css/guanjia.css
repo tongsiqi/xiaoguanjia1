@@ -1,0 +1,1485 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+section::-webkit-scrollbar {
+  width: 0;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.87rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container header span {
+  padding-left: 0.3rem;
+}
+.container header span img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container header h1 {
+  -webkit-box-flex: 1;
+  padding-left: 1.27rem;
+  font-size: 0.36rem;
+  font-weight: normal;
+  color: white;
+}
+.container section {
+  position: relative;
+}
+.container section .box {
+  width: 100%;
+  height: 0.9rem;
+  background: #f3f3f5;
+  overflow: hidden;
+}
+.container section .box .one {
+  width: 5.8rem;
+  height: 0.59rem;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  margin-top: 0.16rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .box .one input {
+  width: 5.8rem;
+  height: 0.59rem;
+  border-radius: 0.1rem;
+  background: url(../img/search-icon.png) no-repeat 0.13rem center;
+  background-size: 0.26rem;
+  border: none;
+  outline: none;
+  text-indent: 0.48rem;
+}
+.container section .box2 {
+  width: 100%;
+  height: 1.21rem;
+  background: #ffffff;
+}
+.container section .box2 p {
+  font-size: 0.22rem;
+  color: #999999;
+  padding-top: 0.24rem;
+}
+.container section .box2 p span {
+  padding-right: 0.15rem;
+  padding-left: 0.29rem;
+}
+.container section .box2 p span img {
+  width: 0.22rem;
+  height: auto;
+  background: none;
+}
+.container section .box2 h1 {
+  font-size: 0.25rem;
+  color: #4194f0;
+  font-weight: normal;
+  padding-top: 0.07rem;
+  padding-left: 0.62rem;
+}
+.container section .box3 {
+  height: 0.9rem;
+  background: #f3f3f5;
+  overflow: hidden;
+  width: 100%;
+  height: 8.2rem;
+  background: none;
+}
+.container section .box3 .one {
+  width: 5.8rem;
+  height: 0.59rem;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  margin-top: 0.16rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .box3 .one input {
+  width: 5.8rem;
+  height: 0.59rem;
+  border-radius: 0.1rem;
+  background: url(../img/search-icon.png) no-repeat 0.13rem center;
+  background-size: 0.26rem;
+  border: none;
+  outline: none;
+  text-indent: 0.48rem;
+}
+.container section .box3 .left {
+  width: 5.88rem;
+  height: 8.2rem;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+.container section .box3 .left .two {
+  width: 5.88rem;
+  height: 0.45rem;
+  background: #f3f3f5;
+}
+.container section .box3 .left .two p {
+  font-size: 0.26rem;
+  padding-left: 0.32rem;
+  line-height: 0.45rem;
+}
+.container section .box3 .left .three {
+  width: 5.35rem;
+  height: 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+  margin-left: 0.29rem;
+}
+.container section .box3 .left .three h1 {
+  font-weight: normal;
+  font-size: 0.26rem;
+  color: #4194f0;
+  line-height: 1rem;
+}
+.container section .box3 .right {
+  width: 0.52rem;
+  height: 8.2rem;
+  background: #ffffff;
+  margin-left: 5.88rem;
+  margin-top: -8.2rem;
+}
+.container section .box3 .right ul {
+  padding-top: 0.33rem;
+}
+.container section .box3 .right ul li {
+  height: 0.26rem;
+  text-align: center;
+  line-height: 0.32rem;
+  color: #4194f0;
+}
+.footer {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #4194f0;
+  margin-top: -1rem;
+  position: absolute;
+  border-radius: 0.1rem;
+  top: 5.8rem;
+  left: 2.7rem;
+}
+.footer p {
+  font-size: 0.33rem;
+  text-align: center;
+  line-height: 0.8rem;
+  color: white;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.87rem;
+  background: #4194f0;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f4f8;
+}
+.container section .box10 {
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .box10 span {
+  padding-left: 0.32rem;
+  padding-right: 0.2rem;
+}
+.container section .box10 span img {
+  width: 0.34rem;
+  height: auto;
+  background: none;
+}
+.container section .box10 h1 {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  font-weight: normal;
+}
+.container section .box10 h2 {
+  font-size: 0.4rem;
+  font-weight: normal;
+  color: #4194f0;
+  padding-right: 0.3rem;
+}
+.container section .box10 h2 span {
+  font-size: 0.2rem;
+  padding-right: 0.05rem;
+}
+.container section .box9 {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  height: 0.77rem;
+  background: #f3f4f8;
+}
+.container section .box9 p {
+  padding-top: 0.28rem;
+  padding-left: 0.32rem;
+  font-size: 0.25rem;
+}
+.container section .box8 {
+  width: 100%;
+  height: 0.91rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .box8 .check {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 0.3rem;
+  padding-top: 0.25rem;
+}
+.container section .box8 .check input[type='checkbox'] {
+  display: none;
+}
+.container section .box8 .check input[type='checkbox'] + label {
+  width: .38rem;
+  height: .38rem;
+  background: url(../img/checked-mark.png) no-repeat bottom;
+  background-size: .38rem auto;
+  display: block;
+}
+.container section .box8 .check input[type='checkbox']:checked + label {
+  background-position: 0 0;
+}
+.container section .box8 .check span {
+  display: block;
+  padding-left: 0.27rem;
+  padding-top: 0.05rem;
+}
+.container section .box8 .check span img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .box8 .check p {
+  -webkit-box-flex: 1;
+  padding-left: 0.26rem;
+}
+.container section .box8 .check h1 {
+  padding-right: 0.3rem;
+  color: #fb2764;
+  font-size: 0.21rem;
+}
+.container section .box7 {
+  width: 100%;
+  height: 0.91rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .box7 .check {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 0.3rem;
+  padding-top: 0.25rem;
+}
+.container section .box7 .check input[type='checkbox'] {
+  display: none;
+}
+.container section .box7 .check input[type='checkbox'] + label {
+  width: .38rem;
+  height: .38rem;
+  background: url(../img/checked-mark.png) no-repeat bottom;
+  background-size: .38rem auto;
+  display: block;
+}
+.container section .box7 .check input[type='checkbox']:checked + label {
+  background-position: 0 0;
+}
+.container section .box7 .check span {
+  display: block;
+  padding-left: 0.27rem;
+  padding-top: 0.05rem;
+}
+.container section .box7 .check span img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .box7 .check p {
+  -webkit-box-flex: 1;
+  padding-left: 0.26rem;
+}
+.container section .box6 {
+  width: 100%;
+  height: 0.91rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+}
+.container section .box6 .check {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 0.3rem;
+  padding-top: 0.25rem;
+}
+.container section .box6 .check input[type='checkbox'] {
+  display: none;
+}
+.container section .box6 .check input[type='checkbox'] + label {
+  width: .38rem;
+  height: .38rem;
+  background: url(../img/checked-mark.png) no-repeat bottom;
+  background-size: .38rem auto;
+  display: block;
+}
+.container section .box6 .check input[type='checkbox']:checked + label {
+  background-position: 0 0;
+}
+.container section .box6 .check span {
+  display: block;
+  padding-left: 0.27rem;
+  padding-top: 0.05rem;
+}
+.container section .box6 .check span img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .box6 .check p {
+  -webkit-box-flex: 1;
+  padding-left: 0.26rem;
+}
+.container footer {
+  width: 100%;
+  height: 1.16rem;
+  background: none;
+}
+.container footer .di {
+  width: 5.82rem;
+  height: 0.85rem;
+  background: #4194f0;
+  margin: 0 0.28rem;
+  border-radius: 0.1rem;
+}
+.container footer .di p {
+  text-align: center;
+  font-size: 0.31rem;
+  line-height: 0.85rem;
+}
+.container footer .di p a {
+  color: white;
+}
+.one {
+  width: 100%;
+  height: 0.88rem;
+  background: #f3f3f5;
+}
+.one form .first {
+  width: 4.82rem;
+  height: 0.6rem;
+  margin-left: 0.3rem;
+  margin-top: 0.14rem;
+  background: #ffffff url(../img/未标题-2.gif) no-repeat 0.1rem center;
+  background-size: 0.26rem;
+  border-radius: 0.05rem;
+  outline: none;
+  border: none;
+  text-indent: 0.5rem;
+}
+.one form .er {
+  width: 0.85rem;
+  height: 0.6rem;
+  border-radius: 0.05rem;
+  outline: none;
+  border: none;
+  border: 1px solid #e3e3e3;
+  background: #eaeaea;
+  text-align: center;
+}
+.two {
+  width: 100%;
+  height: 9.7rem;
+  background: #ffffff;
+}
+.two {
+  width: 100%;
+  height: 9.7rem;
+  background: #ffffff;
+  overflow: hidden;
+}
+.two .li {
+  width: 5.27rem;
+  height: 2.23rem;
+  background: none;
+  margin-top: 2.28rem;
+  margin-left: 0.61rem;
+}
+.two .li P {
+  margin-left: 1.96rem;
+}
+.two .li P img {
+  width: 1.34rem;
+  height: auto;
+  background: none;
+}
+.two .li h1 {
+  text-align: center;
+  margin-top: 0.28rem;
+  color: #cccccc;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container header form {
+  margin-left: 0.98rem;
+  -webkit-box-flex: 1;
+}
+.container header form input {
+  width: 3.04rem;
+  height: 0.51rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  background: #3586e1 url(../img/未标题-7.gif) no-repeat 0.24rem center;
+  background-size: 0.28rem;
+  text-indent: 0.7rem;
+  color: #fff;
+  font-size: 0.32rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container header dl {
+  margin-right: 0.24rem;
+}
+.container header dl dt {
+  padding-top: 0.15rem;
+  text-align: center;
+}
+.container header dl dt img {
+  width: 0.34rem;
+  height: auto;
+  background: none;
+}
+.container header dl dd {
+  margin-top: -0.1rem;
+  color: #fff;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: none;
+}
+.container section .t {
+  width: 100%;
+  height: 3rem;
+  background: #adff2f;
+}
+.container section .t img {
+  width: 6.4rem;
+  height: auto;
+  background: none;
+}
+.container section .s {
+  overflow: hidden;
+  width: 100%;
+  height: 6.52rem;
+  background: none;
+}
+.container section .s h1 {
+  margin-top: 0.79rem;
+  margin-left: 2.02rem;
+}
+.container section .s h1 img {
+  width: 2.26rem;
+  height: auto;
+  background: none;
+}
+.container section .s p {
+  font-size: 0.24rem;
+  color: #8b8b8b;
+  margin-left: 1.35rem;
+  margin-top: 0.35rem;
+}
+.container section .s form {
+  margin-left: 1.48rem;
+  margin-top: 0.48rem;
+}
+.container section .s form input {
+  border-radius: 0.2rem;
+  width: 3.42rem;
+  height: 0.76rem;
+  outline: none;
+  border: none;
+  border: 2px solid dodgerblue;
+  font-size: 0.33rem;
+  text-align: center;
+  color: dodgerblue;
+}
+.container footer {
+  width: 100%;
+  height: 0.98rem;
+  background: #ffffff;
+  background: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container footer dl {
+  -webkit-box-flex: 1;
+  margin-left: 0.86rem;
+  margin-top: 0.18rem;
+}
+.container footer dl dt img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container footer dl dd {
+  margin-top: -0.03rem;
+}
+.container footer dl:first-child dd {
+  color: deepskyblue;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header h1 {
+  font-size: 0.26rem;
+  margin-left: -0.6rem;
+}
+.container section {
+  background: none;
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.container section .box {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .box h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .box h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .box h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .box p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .box p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .box p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .box h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .box h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .hgh ol {
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 0.68rem;
+  background: none;
+}
+.container section .hgh ol h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .hgh ol h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .hgh ol h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .hgh ol p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .hgh ol p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .hgh ol p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .hgh ol h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .hgh ol h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .hgh ol li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 0.68rem;
+  width: 2.13rem;
+  height: 0.68rem;
+  color: #000000;
+}
+.container section .hgh ol li a:hover {
+  display: block;
+  width: 2.13rem;
+  height: 0.68rem;
+  border-bottom: 2px solid #4194f0;
+  color: #000000;
+}
+.container section .main {
+  height: 8.49rem;
+  background: none;
+  margin-top: 0.05rem;
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .main h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .left {
+  width: 1.37rem;
+  height: 8.49rem;
+  background: none;
+}
+.container section .main .left ul .item {
+  width: 1.37rem;
+  height: 1.12rem;
+  padding-left: 0.17rem;
+  box-sizing: border-box;
+  line-height: 1.12rem;
+  border-bottom: 1px solid #e3e3e3;
+  background: #f5f5f5;
+  font-size: 0.24rem;
+}
+.container section .main .left ul .item:hover {
+  width: 1.37rem;
+  height: 1.12rem;
+  background: #ffffff;
+  color: #4194f0;
+}
+.container section .main .right {
+  width: 5.04rem;
+  height: 8.49rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.container section .main .right .zh {
+  width: 5.04rem;
+  height: 0.76rem;
+  background: #f5f5f5;
+  border-left: 3px solid #d8d8d8;
+}
+.container section .main .right .zh ul {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 5.04rem;
+  height: 0.76rem;
+  background: #f5f5f5;
+}
+.container section .main .right .zh ul h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .zh ul h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .zh ul h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .zh ul p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .zh ul p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .zh ul p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .zh ul h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .zh ul h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .zh ul li {
+  padding-left: 0.26rem;
+  width: 0.7rem;
+  margin-left: 0.17rem;
+  height: 0.43rem;
+  background: #fff;
+  line-height: 0.45rem;
+  margin-top: 0.15rem;
+  display: block;
+  border-radius: 0.2rem;
+  border: 1px solid #666;
+  color: #666;
+}
+.container section .main .right .kk {
+  width: 5.04rem;
+  height: 1.8rem;
+  background: none;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+.container section .main .right .kk dl {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: white;
+  height: 1.7rem;
+}
+.container section .main .right .kk dl h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .kk dl h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .kk dl h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .kk dl p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .kk dl p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .kk dl p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .kk dl h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .kk dl h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .kk dl dt {
+  padding-left: 0.21rem;
+  padding-top: 0.12rem;
+}
+.container section .main .right .kk dl dt img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .kk dl dd h1 {
+  font-size: 0.26rem;
+  padding-left: 0.21rem;
+  padding-top: 0.12rem;
+}
+.container section .main .right .kk dl dd h2 {
+  padding-left: 0.5rem;
+  color: #8B8B8B;
+}
+.container section .main .right .kk dl dd p {
+  padding-left: 4.8rem;
+  margin-top: -0.04rem;
+  font-size: 0.24rem;
+  color: #ff5a64;
+}
+.container section .main .right .kk dl dd p span {
+  padding-left: 0.1rem;
+}
+.container section .main .right .kk dl dd p b {
+  padding-left: 2.7rem;
+  margin-top: -0.4rem;
+}
+.container section .main .right .kk dl dd p b img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .kk dl p {
+  margin-top: 1.37rem;
+  margin-left: -4.4rem;
+}
+.container section .main .right .kk dl p img {
+  width: 2.8rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right h3 {
+  position: absolute;
+  top: 2.73rem;
+  left: 1.37rem;
+}
+.container section .main .right h3 img {
+  width: 0.65rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj {
+  width: 5.04rem;
+  height: 1.5rem;
+  background: none;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+.container section .main .right .jj dl {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: white;
+  height: 1.7rem;
+}
+.container section .main .right .jj dl h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .jj dl h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj dl h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .jj dl p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .jj dl p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj dl p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .jj dl h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .jj dl h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj dl dt {
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+}
+.container section .main .right .jj dl dt img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj dl dd h1 {
+  font-size: 0.26rem;
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+  width: 2.93rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container section .main .right .jj dl dd h2 {
+  padding-left: 0.5rem;
+  color: #8B8B8B;
+}
+.container section .main .right .jj dl dd p {
+  padding-left: 4.8rem;
+  margin-top: -0.04rem;
+  font-size: 0.24rem;
+  color: #ff5a64;
+}
+.container section .main .right .jj dl dd p span {
+  padding-left: 0.1rem;
+}
+.container section .main .right .jj dl dd p b {
+  padding-left: 2.7rem;
+  margin-top: -0.4rem;
+}
+.container section .main .right .jj dl dd p b img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .jj dl p {
+  margin-top: 1.18rem;
+  margin-left: -4.4rem;
+}
+.container section .main .right .jj dl p img {
+  width: 2.8rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu {
+  width: 5.04rem;
+  height: 1.5rem;
+  background: none;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+.container section .main .right .uu dl {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: none;
+  height: 1.7rem;
+}
+.container section .main .right .uu dl h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .uu dl h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu dl h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .uu dl p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .uu dl p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu dl p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .uu dl h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .uu dl h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu dl dt {
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+}
+.container section .main .right .uu dl dt img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu dl dd h1 {
+  font-size: 0.26rem;
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+  width: 2.93rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container section .main .right .uu dl dd h2 {
+  padding-left: 0.5rem;
+  color: #8B8B8B;
+}
+.container section .main .right .uu dl dd p {
+  padding-left: 4.8rem;
+  margin-top: -0.04rem;
+  font-size: 0.24rem;
+  color: #ff5a64;
+}
+.container section .main .right .uu dl dd p span {
+  padding-left: 0.1rem;
+}
+.container section .main .right .uu dl dd p b {
+  padding-left: 2.7rem;
+  margin-top: -0.4rem;
+}
+.container section .main .right .uu dl dd p b img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .uu dl p {
+  margin-top: 1.18rem;
+  margin-left: -4.4rem;
+}
+.container section .main .right .uu dl p img {
+  width: 2.8rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right h6 {
+  position: absolute;
+  top: 6.6rem;
+  left: 1.85rem;
+}
+.container section .main .right h6 img {
+  width: 0.51rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii {
+  width: 5.04rem;
+  height: 1.5rem;
+  background: none;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+.container section .main .right .ii dl {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: none;
+  height: 1.7rem;
+}
+.container section .main .right .ii dl h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .ii dl h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii dl h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .ii dl p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .ii dl p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii dl p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .ii dl h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .ii dl h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii dl dt {
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+}
+.container section .main .right .ii dl dt img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii dl dd h1 {
+  font-size: 0.26rem;
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+  width: 2.93rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container section .main .right .ii dl dd h2 {
+  padding-left: 0.5rem;
+  color: #8B8B8B;
+}
+.container section .main .right .ii dl dd p {
+  padding-left: 4.8rem;
+  margin-top: -0.04rem;
+  font-size: 0.24rem;
+  color: #ff5a64;
+}
+.container section .main .right .ii dl dd p span {
+  padding-left: 0.1rem;
+}
+.container section .main .right .ii dl dd p b {
+  padding-left: 2.7rem;
+  margin-top: -0.4rem;
+}
+.container section .main .right .ii dl dd p b img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .ii dl p {
+  margin-top: 1.18rem;
+  margin-left: -4.4rem;
+}
+.container section .main .right .ii dl p img {
+  width: 2.8rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi {
+  width: 5.04rem;
+  height: 1.5rem;
+  background: none;
+  position: relative;
+}
+.container section .main .right .xixi dl {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  background: none;
+  height: 1.7rem;
+}
+.container section .main .right .xixi dl h1 {
+  position: relative;
+  margin-left: 0.31rem;
+}
+.container section .main .right .xixi dl h1 img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi dl h2 img {
+  width: 0.81rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0.39rem;
+  left: 0.44rem;
+}
+.container section .main .right .xixi dl p {
+  margin-left: 0.2rem;
+  -webkit-box-flex: 1;
+  margin-top: 0.14rem;
+}
+.container section .main .right .xixi dl p span img {
+  width: 0.61rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi dl p b {
+  display: block;
+  margin-top: 0.1rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: normal;
+}
+.container section .main .right .xixi dl h3 {
+  margin-right: 0.21rem;
+  margin-top: 0.03rem;
+}
+.container section .main .right .xixi dl h3 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi dl dt {
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+}
+.container section .main .right .xixi dl dt img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi dl dd h1 {
+  font-size: 0.26rem;
+  padding-left: 0.21rem;
+  padding-top: 0.18rem;
+  width: 2.93rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container section .main .right .xixi dl dd h2 {
+  padding-left: 0.5rem;
+  color: #8B8B8B;
+}
+.container section .main .right .xixi dl dd p {
+  padding-left: 4.8rem;
+  margin-top: -0.04rem;
+  font-size: 0.24rem;
+  color: #ff5a64;
+}
+.container section .main .right .xixi dl dd p span {
+  padding-left: 0.1rem;
+}
+.container section .main .right .xixi dl dd p b {
+  padding-left: 2.7rem;
+  margin-top: -0.4rem;
+}
+.container section .main .right .xixi dl dd p b img {
+  width: 0.42rem;
+  height: auto;
+  background: none;
+}
+.container section .main .right .xixi dl p {
+  margin-top: 1.18rem;
+  margin-left: -4.4rem;
+}
+.container section .main .right .xixi dl p img {
+  width: 2.8rem;
+  height: auto;
+  background: none;
+}
+.container footer {
+  width: 100%;
+  height: 0.88rem;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.container footer .car {
+  width: 1rem;
+  height: 0.88rem;
+  background: #ff0000;
+  background: #393939 url(../img/car.png) no-repeat center center;
+  background-size: 0.46rem auto;
+  border: 5px solid #4d4d4d;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.14rem;
+  left: 0.1rem;
+}
+.container footer .zero {
+  -webkit-box-flex: 1;
+  padding-left: 1.54rem;
+  padding-top: 0.2rem;
+  color: #d9d9d9;
+  font-size: 0.26rem;
+}
+.container footer .status {
+  width: 2.3rem;
+  height: 0.88rem;
+  background: #535558;
+}
+.container footer .status P {
+  color: #d9d9d9;
+  text-align: center;
+  line-height: 0.88rem;
+  font-size: 0.3rem;
+}
+.zeng {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zeng .whm {
+  position: relative;
+  width: 4.65rem;
+  height: 6.1rem;
+  background: #ffffff;
+  border-radius: 0.2rem;
+  left: 50%;
+  margin-left: -2.325rem;
+  top: 50%;
+  margin-top: -3.9rem;
+}
+.zeng .whm h1 {
+  height: 5rem;
+  text-align: center;
+  margin-top: 0.6rem;
+  border-bottom: 1px solid #e3e3e3;
+}
+.zeng .whm h1 img {
+  width: 3.9rem;
+  height: auto;
+  background: none;
+}
+.zeng .whm p {
+  width: 4.28rem;
+  margin-left: 0.35rem;
+  margin-top: 0.15rem;
+}
+.zeng .whm h6 {
+  padding-top: 0.05rem;
+  padding-right: 0.05rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.zeng .whm h6 img {
+  width: 0.62rem;
+  height: auto;
+  background: none;
+}

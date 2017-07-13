@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 639) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+       <link rel="stylesheet" href="css/xiaoguanjia.css" />
+
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<a href="12pingjia.html"><span><img src="img/未标题-1.gif"></span></a>
+				<h1 style="margin-left: 0.9rem;">确认订单</h1>
+			</header>
+
+			<section>
+	          <div class="qqq"></div>
+	          <div class="ooo">
+	          	<h1>张三     135****8956</h1>
+	          	<p><img src="img/position.gif">北京朝阳区四环到五环之间朝阳区十里堡北里十五号楼3单元409</p>
+	          	<h3><img src="img/da.gif"></h3>
+	          </div>
+	          <img src="img/zu.png">
+	           <div class="ppp"></div>
+	           <div class="iii">
+	           	<p>备注</p>
+	           	<h2>宿舍没人给我打电话或者交给我室友热退货</h2>
+	           	<h3><img src="img/da.gif"></h3>
+	           </div>
+	             <div class="ppp"></div>
+	             <div class="mmm">
+	             	<p>杭州西子湖大学宇宙无敌哈哈哈哈哈哈零食店老诶我IT附近空瓶偶尔听课</p>
+	             </div>
+	             <div class="bbb">
+	             	<dl>
+	             		<dt><img src="img/fangbianmian.png"></dt>
+	             		<dd>香飘飘  原味奶茶  80g/杯</dd>
+	             	</dl>
+	             	<p>×1</p>
+	             	<span>¥5</span>
+	             </div>
+	                     <div class="bbb">
+	             	<dl>
+	             		<dt><img src="img/fangbianmian.png"></dt>
+	             		<dd>香飘飘  原味奶茶  80g/杯</dd>
+	             	</dl>
+	             	<p>×1</p>
+	             	<span>¥5</span>
+	             </div>
+	                     <div class="bbb">
+	             	<dl>
+	             		<dt><img src="img/fangbianmian.png"></dt>
+	             		<dd>香飘飘  原味奶茶  80g/杯</dd>
+	             	</dl>
+	             	<p>×1</p>
+	             	<span>¥5</span>
+	             </div>
+	             <div class="nnn">
+	             	<p>原价 ¥ 20</p>
+	             	<span>优惠-¥ 10</span>
+	             	<h1>待支付<b>¥ 7</b></h1>
+	             </div>
+	             <div class="kkk"></div>
+             </section>
+          <footer>
+          	<p>待支付¥7</p>
+          	<h1><a href="14zhezhao.html" style="color: white;">确定支付</a></h1>
+          </footer>
+		</div>
+
+	</body>
+
+</html>
